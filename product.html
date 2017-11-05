@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+ 	<meta name="description" content="">
+ 	<meta name="author" content="">
+	<title>Cửa hàng ...</title>
+</head>
+<body>
+	<!--Navigation-->
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="sr-only">Toggle nav</span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="index.html">Homepage</a>
+			</div>
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav">
+					<li class="dropdown">
+						<a href="#" class="active dropdown-toggle" data-toggle="dropdown">Categories <span class="caret"></span></a>
+						<ul class="dropdown-menu" role="menu">
+							<li><a href="category.html">Cakes</a></li>
+							<li><a href="category.html">Pies</a></li>
+							<li><a href="category.html">...</a></li>
+							<li class="divider"></li>
+							<li><a href="category.html">All Categories</a>
+						</ul>
+					</li>
+					<li><a href="#">Link</a></li>
+					<li><a href="#">Link</a></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#"><span class="badge pull-right">4</span><i class="glyphicon glyphicon-shopping-cart"></i></a></li>
+					<li><a href="account.html"><i class="glyphicon glyphicon-user"></i></a></li>
+					<li><a href="#" data-toggle="modal" data-target="#login">Sign In</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<!-- End of navigation-->
+	<!-- Login modal-->
+	<div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<!-- Login modal content-->
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+					<h2 class="modal-title" id="myModalLabel">Sign in</h2>
+				</div>
+				<div class="modal-body">
+					<form class="form-signin" role="form">
+						<h3 class="form-signin-heading">Sign in with your email address</h3>
+						<div class="form-group">
+							<input type="email" class="form-control" placeholder="Email address" required autofocus>
+						</div>
+						<div class="form-group">
+							<input type="password" class="form-control" placeholder="Password" required>
+						</div>
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" value="remember-me"> Remember me
+							</label>
+						</div>
+						<button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+					</form>
+				</div>
+				<div class="row">
+					<div class="col-xs-3">
+						<a href="#" class="btn btn-facebook btn-large btn-caps btn-block">Facebook<span class="icon-facebook"></span></a>
+					</div>
+					<div class="col-xs-3">
+						<a href="#" class="btn btn-twitter btn-large btn-caps btn-block">Twitter<span class="icon-twitter"></span></a>
+					</div>
+					<div class="col-xs-3">
+						<a href="" class="btn btn-lg btn-caps btn-block"><span class="icon-dribble"></span></a>
+					</div>
+				</div>
+				<div class="modal-footer">
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Modal end-->
+	<!-- Main content-->
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-4 col-md-3">
+				<h3>Categories</h3>
+				<div class="list-group">
+					<a href="category.html" class="list-group-item">Placeholder</a>
+					<a href="category.html" class="list-group-item">Placeholder</a>
+					<a href="category.html" class="list-group-item">Placeholder</a>
+					<a href="category.html" class="list-group-item">Placeholder</a>
+					<a href="category.html" class="list-group-item">Placeholder</a>
+					<a href="category.html" class="list-group-item">Placeholder</a>
+				</div>
+			</div>
+			<div class="col-md-9">
+				<div class="thumbnail">
+					<div class="row">
+						<div class="col-sm-6">
+							<img class="img-responsive" src="images/placeholder.png" alt="placeholder">
+							<div class="row">
+								<div class="col-xs-3">
+									<a href="#"><img src="images/placeholder.png" alt="placeholder" class="img-thumbnail img-responsive"></a>
+								</div>
+								<div class="col-xs-3">
+									<a href="#"><img src="images/placeholder.png" alt="placeholder" class="img-thumbnail img-responsive"></a>
+								</div>
+								<div class="col-xs-3">
+									<a href="#"><img src="images/placeholder.png" alt="placeholder" class="img-thumbnail img-responsive"></a>
+								</div>
+								<div class="col-xs-3">
+									<a href="#"><img src="images/placeholder.png" alt="placeholder" class="img-thumbnail img-responsive"></a>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6">
+							<h4 class="pull-right">20.000</h4>
+							<h4><a href="product.html">Product Name</a></h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing
+							elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+							aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+							laboris nisi ut aliquip ex ea commodo consequat.
+							</p>
+							<form role="form">
+								<div class="number form-group">
+									<div class="row">
+										<div class="col-xs-2">
+											<label class="control-label" for="number">Number
+											</label>
+										</div>
+										<div class="col-xs-3">
+											<input type="number" class="form-control input-sm col-xs-3" id="number">
+										</div>
+									</div>
+								</div>
+								<div class="form-group">
+									<label>Size</label>
+									<div class="btn-group">
+										<button type="button" class="btn btn-default">Size</button>
+										<button type="button" class="btn btn-default">Size</button>
+										<button type="button" class="btn btn-default">Size</button>
+										<button type="button" class="btn btn-default">Size</button>
+									</div>
+								</div>
+								<div class="form-group">
+									<button type="submit" class="btn btn-success">Add to Cart</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="description">
+			<p>
+				Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+				officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit
+				amet, consectetur adipiscing elit. Cras interdum cursus est, facilisis
+				imperdiet diam fringilla vel. Proin ut sagittis nibh, vehicula euismod
+				sapien. Cras commodo pellentesque aliquet. Nullam interdum urna et
+				nibh dictum, id feugiat risus volutpat. Nulla ac velit fringilla,
+				efficitur arcu a, ultrices erat. Vestibulum elementum metus suscipit
+				purus vehicula faucibus. Ut lobortis hendrerit magna. In ac urna non
+				est malesuada maximus in ut nulla.
+			</p>
+		</div>
+		<div class="ratings">
+			<p class="pull-right">3 reviews</p>
+			<p>
+				<span class="glyphicon glyphicon-star"></span>
+				<span class="glyphicon glyphicon-star"></span>
+				<span class="glyphicon glyphicon-star"></span>
+				<span class="glyphicon glyphicon-star"></span>
+				<span class="glyphicon glyphicon-star-empty"></span>
+				4 stars
+			</p>
+		</div>
+		<div class="well">
+			<div class="text-right">
+				<a class="btn btn-success">Leave a review</a>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<span class="glyphicon glyphicon-star"></span>
+				<span class="glyphicon glyphicon-star"></span>
+				<span class="glyphicon glyphicon-star"></span>
+				<span class="glyphicon glyphicon-star"></span>
+				<span class="glyphicon glyphicon-star-empty"></span>
+				Name
+				<span class="pull-right">1 day ago</span>
+				<p>Review, comments</p>
+			</div>
+		</div>
+		<hr>
+		<div class="row">
+			<div class="col-md-12">
+				<span class="glyphicon glyphicon-star"></span>
+				<span class="glyphicon glyphicon-star"></span>
+				<span class="glyphicon glyphicon-star"></span>
+				<span class="glyphicon glyphicon-star-empty"></span>
+				<span class="glyphicon glyphicon-star-empty"></span>
+				Name
+				<span class="pull-right">3 days ago</span>
+				<p>Review, comments</p>
+			</div>
+		</div>
+		<hr>
+		<div class="row">
+			<div class="col-md-12">
+				<span class="glyphicon glyphicon-star"></span>
+				<span class="glyphicon glyphicon-star"></span>
+				<span class="glyphicon glyphicon-star"></span>
+				<span class="glyphicon glyphicon-star-empty"></span>
+				<span class="glyphicon glyphicon-star-empty"></span>
+				Name
+				<span class="pull-right">3 days ago</span>
+				<p>Review, comments</p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>	

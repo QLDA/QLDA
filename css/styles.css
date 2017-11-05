@@ -1,0 +1,17 @@
+body{
+	padding-top: 70px;
+}
+
+.add-to-cart{
+	margin: auto;
+	display: block;
+	width: 0%;
+}
+
+.center-block{
+	text-align: center;
+}
+
+footer{
+	text-align: center;
+}
